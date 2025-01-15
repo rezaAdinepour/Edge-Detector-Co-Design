@@ -89,26 +89,67 @@ We design the project in two phases:
 ## Software Phase:
 For testing the design, we use the following image:
 
-![img1](Doc/Images/test_img)
+![img1](Doc/Images/test_img.png)
 
 
 * We convolve the two kernels **Gx** and **Gy** with the image and then calculate the average of the outputs of both convolved images to report the edges of the image.
 
 To achieve this, we implement the convolution function as follows:
 
+```Python
+def convolve(x, kernel):
+    x_height = x.shape[0]
+    x_width = x.shape[1]
+    
+    kernel_height = kernel.shape[0]
+    kernel_width = kernel.shape[1]
+    
+    H = (kernel_height - 1) // 2
+    W = (kernel_width - 1) // 2
+    
+    out = np.zeros((x_height, x_width))
+    # iterate over all the pixel of image X
+    for i in np.arange(H, x_height - H):
+        for j in np.arange(W, x_width - W):
+            sum = 0
+            # iterate over the filter
+            for k in np.arange(-H, H + 1):
+                for l in np.arange(-W, W + 1):
+                    # get the corresponding value from image and filter
+                    a = x[i + k, j + l]
+                    w = kernel[H + k, W + l]
+                    sum += (w * a)
+            out[i, j] = sum
+    return out
+
+```
+
 * The dimensions of the grayscale image are (1080, 661).
 * To reduce computational load and increase processing speed, we compromise on image quality and downscale the image dimensions to (128, 128).
 * The resized image appears as follows:
 
-
+![img2](Doc/Images/test_img_resized.png)
 
 
 Next, we convolve both kernels with the input image, and the outputs are as follows:
 
-
+![img3](Doc/Images/test_img_conv.png)
 
 
 Using the code snippet below, we compute the average of the edges detected by both kernels. We then normalize the pixel values to a range of 0 to 255.
 
+```Python
+# calculate the gradient magnitude of vectors
+edge_out = np.sqrt(np.power(pre_x, 2) + np.power(pre_y, 2))
+edge_out = (edge_out / np.max(edge_out)) * 255
+```
+
 
 The final edge-detected image, referred to bellow, is presented as the software output of the edges detected in the image.
+
+![img4](Doc/Images/test_final_conv_sw.png)
+
+
+
+
+
