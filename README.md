@@ -9,6 +9,31 @@ In this project, the Sobel edge detection algorithm has been implemented at a hi
 The implementation is carried out on the `ZynQ 7010` chip, which provides an efficient platform for hardware/software co-design. This combination leverages the high-performance processing capabilities of hardware with the flexibility of software to achieve an optimized edge detection solution.
 
 
+## Features
+- Sobel Edge Detection algorithm implementation.
+- Hardware acceleration using ZynQ 7010.
+- AXI-based communication between PL and PS.
+- Image resizing and processing for optimized performance.
+
+
+
+## Getting Started
+
+### Prerequisites
+To clone and run this project, ensure you have the following tools installed:
+- **Vivado** (with HLS and Vitis)
+- **C++ Compiler** (e.g., GCC or Clang)
+- Python (for optional image visualization)
+
+### Cloning the Repository
+To clone the repository, run:
+```bash
+git clone https://github.com/rezaAdinepour/Edge-Detector-Co-Design.git
+
+cd Edge-Detector-Co-Design
+```
+
+
 
 ### Sobel Edge Detection Algorithm
 
@@ -270,3 +295,15 @@ The process works as follows:
 * After the image is fully transmitted, the **start** signal is set to `1`. This indicates that the algorithm can begin processing.
 
 Once the edges are detected in the **PL**, the processed data is sent back to the **PS** as an 8-bit stream.
+
+
+## Contribution
+Feel free to contribute to this project by submitting issues or pull requests. Any improvements or additional features are welcome!
+
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+
+## Contact
+For any questions or further information, contact [r3zaadinep0ur@gmail.com](r3zaadinep0ur@gmail.com).
