@@ -38,3 +38,14 @@ The Sobel edge detection algorithm is a popular and straightforward method used 
      $$
 
    - Vertical filter (**Gy**)
+
+
+$$
+     G\_x =
+     \begin{bmatrix}
+     -1 & 0 & 1 \\
+     -2 & 0 & 2 \\
+     -1 & 0 & 1
+     \end{bmatrix}
+     $$
+
