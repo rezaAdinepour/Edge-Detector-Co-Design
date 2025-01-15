@@ -28,39 +28,39 @@ The Sobel edge detection algorithm is a popular and straightforward method used 
    Sobel applies two filters (kernels) to the image: one for detecting changes in the horizontal direction (**Gx**) and another for the vertical direction (**Gy**). These filters are convolution masks:
 
    - Horizontal filter (**Gx**):  
-     \[
+     $$
      G_x = 
      \begin{bmatrix}
      -1 & 0 & 1 \\
      -2 & 0 & 2 \\
      -1 & 0 & 1
      \end{bmatrix}
-     \]
+     $$
 
    - Vertical filter (**Gy**):  
-     \[
+     $$
      G_y = 
      \begin{bmatrix}
      -1 & -2 & -1 \\
       0 &  0 &  0 \\
       1 &  2 &  1
      \end{bmatrix}
-     \]
+     $$
 
 2. **Convolution**:  
    The image is convolved with these filters. Each filter emphasizes changes in intensity in its respective direction.
 
 3. **Gradient Magnitude**:  
    The gradients from the horizontal and vertical filters are combined to compute the overall edge strength at each pixel using the formula:
-   \[
+   $$
    \text{Gradient Magnitude} = \sqrt{G_x^2 + G_y^2}
-   \]
+   $$
 
 4. **Gradient Direction**:  
    The direction of the edge can be determined using:
-   \[
+   $$
    \theta = \tan^{-1}\left(\frac{G_y}{G_x}\right)
-   \]
+   $$
 
 5. **Thresholding** (optional):  
    To identify only significant edges, a threshold can be applied to the gradient magnitude.
