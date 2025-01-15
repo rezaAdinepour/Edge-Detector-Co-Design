@@ -29,7 +29,7 @@ The Sobel edge detection algorithm is a popular and straightforward method used 
 
    - Horizontal filter (**Gx**):  
      $$
-     G_x = 
+     G\_x = 
      \begin{bmatrix}
      -1 & 0 & 1 \\
      -2 & 0 & 2 \\
@@ -37,40 +37,4 @@ The Sobel edge detection algorithm is a popular and straightforward method used 
      \end{bmatrix}
      $$
 
-   - Vertical filter (**Gy**):  
-     $$
-     G_y = 
-     \begin{bmatrix}
-     -1 & -2 & -1 \\
-      0 &  0 &  0 \\
-      1 &  2 &  1
-     \end{bmatrix}
-     $$
-
-2. **Convolution**:  
-   The image is convolved with these filters. Each filter emphasizes changes in intensity in its respective direction.
-
-3. **Gradient Magnitude**:  
-   The gradients from the horizontal and vertical filters are combined to compute the overall edge strength at each pixel using the formula:
-   $$ \text{Gradient Magnitude} = \sqrt{G_x^2 + G_y^2} $$
-
-4. **Gradient Direction**:  
-   The direction of the edge can be determined using:
-   $$
-   \theta = \tan^{-1}\left(\frac{G_y}{G_x}\right)
-   $$
-
-5. **Thresholding** (optional):  
-   To identify only significant edges, a threshold can be applied to the gradient magnitude.
-
-#### Characteristics of Sobel Algorithm:
-
-- **Noise Sensitivity**:  
-  Sobel includes smoothing (averaging) in its kernel structure, which reduces the impact of noise compared to simpler methods like Prewitt filters.
-  
-- **Performance**:  
-  It is computationally efficient and suitable for hardware implementation like on FPGA.
-
-- **Applications**:  
-  Sobel is commonly used in computer vision tasks, such as object detection, feature extraction, and motion analysis.
-
+   - Vertical filter (**Gy**)
