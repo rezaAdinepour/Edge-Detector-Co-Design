@@ -1,0 +1,14 @@
+09:49:52 DEBUG : Logs will be stored at '/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/IDE.log'.
+09:51:09 INFO  : Registering command handlers for Vitis TCF services
+09:51:09 INFO  : Launching XSCT server: xsct -n  -interactive /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/temp_xsdb_launch_script.tcl
+09:51:12 INFO  : Platform repository initialization has completed.
+09:51:13 INFO  : XSCT server has started successfully.
+09:51:13 INFO  : Successfully done setting XSCT server connection channel  
+09:51:13 INFO  : plnx-install-location is set to ''
+09:51:13 INFO  : Successfully done query RDI_DATADIR 
+09:51:13 INFO  : Successfully done setting workspace for the tool. 
+09:59:08 INFO  : Result from executing command 'getProjects': design_1_wrapper
+09:59:08 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202320_1|/media/reza/_dev_sda1/Vitis/2023.2/base_platforms/xilinx_vck190_base_202320_1/xilinx_vck190_base_202320_1.xpfm;xilinx_vck190_base_dfx_202320_1|/media/reza/_dev_sda1/Vitis/2023.2/base_platforms/xilinx_vck190_base_dfx_202320_1/xilinx_vck190_base_dfx_202320_1.xpfm;xilinx_vek280_es1_base_202320_1|/media/reza/_dev_sda1/Vitis/2023.2/base_platforms/xilinx_vek280_es1_base_202320_1/xilinx_vek280_es1_base_202320_1.xpfm;xilinx_vmk180_base_202320_1|/media/reza/_dev_sda1/Vitis/2023.2/base_platforms/xilinx_vmk180_base_202320_1/xilinx_vmk180_base_202320_1.xpfm;xilinx_zcu102_base_202320_1|/media/reza/_dev_sda1/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|/media/reza/_dev_sda1/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|/media/reza/_dev_sda1/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+09:59:10 WARN  : An unexpected exception occurred in the module 'platform project logging'
+09:59:11 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+09:59:22 INFO  : Platform 'design_1_wrapper' is added to custom repositories.

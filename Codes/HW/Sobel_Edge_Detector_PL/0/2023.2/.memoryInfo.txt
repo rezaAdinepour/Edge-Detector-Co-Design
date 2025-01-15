@@ -1,0 +1,65 @@
+
+Host Name:                 DESKTOP-A2LG1N2
+OS Name:                   Microsoft Windows 11 Pro
+OS Version:                10.0.22621 N/A Build 22621
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          User1
+Registered Organization:   
+Product ID:                00331-10000-00001-AA823
+Original Install Date:     5/30/2023, 8:07:00 PM
+System Boot Time:          10/28/2024, 5:24:31 PM
+System Manufacturer:       System manufacturer
+System Model:              System Product Name
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 158 Stepping 9 GenuineIntel ~3001 Mhz
+BIOS Version:              American Megatrends Inc. 3402, 3/30/2017
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+03:30) Tehran
+Total Physical Memory:     8,058 MB
+Available Physical Memory: 2,601 MB
+Virtual Memory: Max Size:  12,649 MB
+Virtual Memory: Available: 3,706 MB
+Virtual Memory: In Use:    8,943 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-A2LG1N2
+Hotfix(s):                 3 Hotfix(s) Installed.
+                           [01]: KB5044033
+                           [02]: KB5044285
+                           [03]: KB5046247
+Network Card(s):           4 NIC(s) Installed.
+                           [01]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet 2
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     172.23.128.25
+                                 IP address(es)
+                                 [01]: 172.23.153.42
+                                 [02]: fe80::5d96:ff1:f420:c4a
+                           [02]: VMware Virtual Ethernet Adapter for VMnet1
+                                 Connection Name: VMware Network Adapter VMnet1
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.48.254
+                                 IP address(es)
+                                 [01]: 192.168.48.1
+                                 [02]: fe80::fb3b:cef7:148a:875
+                           [03]: VMware Virtual Ethernet Adapter for VMnet8
+                                 Connection Name: VMware Network Adapter VMnet8
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.204.254
+                                 IP address(es)
+                                 [01]: 192.168.204.1
+                                 [02]: fe80::3759:a349:715a:87a0
+                           [04]: TAP-Windows Adapter V9
+                                 Connection Name: Ethernet 3
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes

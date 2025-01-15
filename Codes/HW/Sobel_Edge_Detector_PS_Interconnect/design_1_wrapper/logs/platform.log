@@ -1,0 +1,1423 @@
+TRACE::2024-11-14.09:58:53::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:53::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:53::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:53::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:58:53::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:53::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:58:53::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-11-14.09:58:55::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2024-11-14.09:58:55::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/mnt/9636D17436D15639/University/CE-Github-Repository/M.Sc-Computer-Architecture/Reconfigurable-Computing-System/HWs/HW2/Codes/HW/Sobel_Edge_Detector_PS/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-11-14.09:58:55::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/mnt/9636D17436D15639/University/CE-Github-Repository/M.Sc-Computer-Architecture/Reconfigurable-Computing-System/HWs/HW2/Codes/HW/Sobel_Edge_Detector_PS/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2024-11-14.09:58:55::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-11-14.09:58:55::SCWDomain::checking for install qemu data   : 
+TRACE::2024-11-14.09:58:55::SCWDomain:: Using the QEMU Data from install at  : /media/reza/_dev_sda1/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-11-14.09:58:55::SCWDomain:: Using the QEMU args  from install at  : /media/reza/_dev_sda1/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-11-14.09:58:55::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:58:55::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:58:55::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:58:55::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:58:55::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:58:55::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:58:55::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2024-11-14.09:58:55::SCWPlatform::Generating the sources  .
+TRACE::2024-11-14.09:58:55::SCWBDomain::Generating boot domain sources.
+TRACE::2024-11-14.09:58:55::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2024-11-14.09:58:55::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:58:55::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:58:55::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:58:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:58:55::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:58:55::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-11-14.09:58:55::SCWMssOS::No sw design opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:58:55::SCWMssOS::mss does not exists at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:58:55::SCWMssOS::Creating sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:58:55::SCWMssOS::Adding the swdes entry, created swdb /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:58:55::SCWMssOS::updating the scw layer changes to swdes at   /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:58:55::SCWMssOS::Writing mss at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:58:55::SCWMssOS::Completed writing the mss file at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-11-14.09:58:55::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-11-14.09:58:55::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-11-14.09:58:55::SCWBDomain::Completed writing the mss file at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-11-14.09:59:08::SCWPlatform::Generating sources Done.
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-11-14.09:59:08::SCWMssOS::No sw design opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::mss exists loading the mss file  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Opened the sw design from mss  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Adding the swdes entry /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-11-14.09:59:08::SCWMssOS::updating the scw layer about changes
+TRACE::2024-11-14.09:59:08::SCWMssOS::Opened the sw design.  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/mnt/9636D17436D15639/University/CE-Github-Repository/M.Sc-Computer-Architecture/Reconfigurable-Computing-System/HWs/HW2/Codes/HW/Sobel_Edge_Detector_PS/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b9e55eee67c38b50c935612b4609c0",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-11-14.09:59:08::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/mnt/9636D17436D15639/University/CE-Github-Repository/M.Sc-Computer-Architecture/Reconfigurable-Computing-System/HWs/HW2/Codes/HW/Sobel_Edge_Detector_PS/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b9e55eee67c38b50c935612b4609c0",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWDomain::checking for install qemu data   : 
+TRACE::2024-11-14.09:59:08::SCWDomain:: Using the QEMU Data from install at  : /media/reza/_dev_sda1/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-11-14.09:59:08::SCWDomain:: Using the QEMU args  from install at  : /media/reza/_dev_sda1/Vitis/2023.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::No sw design opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::mss does not exists at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Creating sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Adding the swdes entry, created swdb /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::updating the scw layer changes to swdes at   /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Writing mss at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Completed writing the mss file at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-11-14.09:59:08::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-11-14.09:59:08::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-11-14.09:59:08::SCWMssOS::Completed writing the mss file at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-11-14.09:59:08::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2024-11-14.09:59:08::SCWMssOS::Writing the mss file completed /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/mnt/9636D17436D15639/University/CE-Github-Repository/M.Sc-Computer-Architecture/Reconfigurable-Computing-System/HWs/HW2/Codes/HW/Sobel_Edge_Detector_PS/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b9e55eee67c38b50c935612b4609c0",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"921a3ab64a5066017b9995373e7f0a7f",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-11-14.09:59:08::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-11-14.09:59:08::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-11-14.09:59:08::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-11-14.09:59:08::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-11-14.09:59:08::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-11-14.09:59:08::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-11-14.09:59:08::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-11-14.09:59:08::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2024-11-14.09:59:08::SCWSystem::Not a boot domain 
+LOG::2024-11-14.09:59:08::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2024-11-14.09:59:08::SCWDomain::Generating domain artifcats
+TRACE::2024-11-14.09:59:08::SCWMssOS::Generating standalone artifcats
+TRACE::2024-11-14.09:59:08::SCWMssOS::Copying the qemu file from  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2024-11-14.09:59:08::SCWMssOS::Copying the qemu file from  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2024-11-14.09:59:08::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Completed writing the mss file at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-11-14.09:59:08::SCWMssOS::Mss edits present, copying mssfile into export location /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-11-14.09:59:08::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-11-14.09:59:08::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2024-11-14.09:59:08::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-11-14.09:59:08::SCWMssOS::Copying to export directory.
+TRACE::2024-11-14.09:59:08::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-11-14.09:59:08::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-11-14.09:59:08::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-11-14.09:59:08::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2024-11-14.09:59:08::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2024-11-14.09:59:08::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2024-11-14.09:59:08::SCWPlatform::Started preparing the platform 
+TRACE::2024-11-14.09:59:08::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2024-11-14.09:59:08::SCWSystem::dir created 
+TRACE::2024-11-14.09:59:08::SCWSystem::Writing the bif 
+TRACE::2024-11-14.09:59:08::SCWPlatform::Started writing the spfm file 
+TRACE::2024-11-14.09:59:08::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-11-14.09:59:08::SCWPlatform::Completed generating the platform
+TRACE::2024-11-14.09:59:08::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:08::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:08::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:08::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:08::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:08::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/mnt/9636D17436D15639/University/CE-Github-Repository/M.Sc-Computer-Architecture/Reconfigurable-Computing-System/HWs/HW2/Codes/HW/Sobel_Edge_Detector_PS/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b9e55eee67c38b50c935612b4609c0",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"921a3ab64a5066017b9995373e7f0a7f",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-11-14.09:59:08::SCWPlatform::updated the xpfm file.
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/mnt/9636D17436D15639/University/CE-Github-Repository/M.Sc-Computer-Architecture/Reconfigurable-Computing-System/HWs/HW2/Codes/HW/Sobel_Edge_Detector_PS/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b9e55eee67c38b50c935612b4609c0",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"921a3ab64a5066017b9995373e7f0a7f",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/mnt/9636D17436D15639/University/CE-Github-Repository/M.Sc-Computer-Architecture/Reconfigurable-Computing-System/HWs/HW2/Codes/HW/Sobel_Edge_Detector_PS/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b9e55eee67c38b50c935612b4609c0",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"921a3ab64a5066017b9995373e7f0a7f",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-11-14.09:59:10::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-11-14.09:59:10::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-11-14.09:59:10::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-11-14.09:59:10::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2024-11-14.09:59:10::SCWDomain::Generating domain artifcats
+TRACE::2024-11-14.09:59:10::SCWMssOS::Generating standalone artifcats
+TRACE::2024-11-14.09:59:10::SCWMssOS::Copying the qemu file from  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2024-11-14.09:59:10::SCWMssOS::Copying the qemu file from  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2024-11-14.09:59:10::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::Completed writing the mss file at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-11-14.09:59:10::SCWMssOS::Mss edits present, copying mssfile into export location /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-11-14.09:59:10::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-11-14.09:59:10::SCWDomain::Building the domain as part of full build :  standalone_ps7_cortexa9_0
+TRACE::2024-11-14.09:59:10::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-11-14.09:59:10::SCWMssOS::Copying to export directory.
+TRACE::2024-11-14.09:59:10::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-11-14.09:59:10::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-11-14.09:59:10::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-11-14.09:59:10::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2024-11-14.09:59:10::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2024-11-14.09:59:10::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2024-11-14.09:59:10::SCWPlatform::Started preparing the platform 
+TRACE::2024-11-14.09:59:10::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2024-11-14.09:59:10::SCWSystem::dir created 
+TRACE::2024-11-14.09:59:10::SCWSystem::Writing the bif 
+TRACE::2024-11-14.09:59:10::SCWPlatform::Started writing the spfm file 
+TRACE::2024-11-14.09:59:10::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-11-14.09:59:10::SCWPlatform::Completed generating the platform
+TRACE::2024-11-14.09:59:10::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Saving the mss changes /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-11-14.09:59:10::SCWMssOS::Commit changes completed.
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to open the hw design at /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA given /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA absoulate path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform::DSA directory /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Platform Path /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-11-14.09:59:10::SCWPlatform:: Unique name xilinx:ebaz4205::0.0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-11-14.09:59:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-11-14.09:59:10::SCWMssOS::Checking the sw design at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWMssOS::DEBUG:  swdes dump  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-11-14.09:59:10::SCWMssOS::Sw design exists and opened at  /home/reza/Xilinx/workspace/Sobel_Edge_Detector_PS_Interconnect/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-11-14.09:59:10::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"/mnt/9636D17436D15639/University/CE-Github-Repository/M.Sc-Computer-Architecture/Reconfigurable-Computing-System/HWs/HW2/Codes/HW/Sobel_Edge_Detector_PS/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b9e55eee67c38b50c935612b4609c0",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.1", "xilrsa:1.7"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.0",
+					"mssFile":	"",
+					"md5Digest":	"921a3ab64a5066017b9995373e7f0a7f",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-11-14.09:59:10::SCWPlatform::updated the xpfm file.
