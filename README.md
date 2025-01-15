@@ -10,7 +10,42 @@ The implementation is carried out on the `ZynQ 7010` chip, which provides an eff
 
 
 
+### Sobel's Edge Detection Algorithm
 
+The Sobel edge detection algorithm is a popular and straightforward method used in image processing to identify edges in an image. It works by detecting regions of high intensity gradients, which typically correspond to edges in the image.
 
+#### Key Concepts:
 
+1. **Edge Detection**:  
+   Edges in an image are boundaries where there is a sharp change in pixel intensity, often indicating object boundaries or other features.
 
+2. **Gradient**:  
+   The Sobel algorithm calculates the gradient of image intensity at each pixel, providing both the magnitude and direction of edges.
+
+#### How Sobel Works:
+
+1. **Gradient Calculation**:  
+   Sobel applies two filters (kernels) to the image: one for detecting changes in the horizontal direction (**Gx**) and another for the vertical direction (**Gy**). These filters are convolution masks:
+
+   - Horizontal filter (**Gx**):  
+     ```
+     [-1  0  1]
+     [-2  0  2]
+     [-1  0  1]
+     ```
+
+   - Vertical filter (**Gy**):  
+     ```
+     [-1 -2 -1]
+      [0  0  0]
+      [1  2  1]
+     ```
+
+2. **Convolution**:  
+   The image is convolved with these filters. Each filter emphasizes changes in intensity in its respective direction.
+
+3. **Gradient Magnitude**:  
+   The gradients from the horizontal and vertical filters are combined to compute the overall edge strength at each pixel using the formula:
+   ```math
+   Gradient Magnitude = √(Gx² + Gy²)
+   ```
