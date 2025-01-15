@@ -10,7 +10,7 @@ The implementation is carried out on the `ZynQ 7010` chip, which provides an eff
 
 
 
-### Sobel's Edge Detection Algorithm
+### Sobel Edge Detection Algorithm
 
 The Sobel edge detection algorithm is a popular and straightforward method used in image processing to identify edges in an image. It works by detecting regions of high intensity gradients, which typically correspond to edges in the image.
 
@@ -33,7 +33,7 @@ $$
      G_x =
      \begin{bmatrix}
      -1 & 0 & 1 \\
-     -2 & 0 & 2 \\
+     -1 & 0 & 1 \\
      -1 & 0 & 1
      \end{bmatrix}
 $$
@@ -43,9 +43,9 @@ $$
 $$
      G_y =
      \begin{bmatrix}
-     -1 & -2 & -1 \\
+     -1 & -1 & -1 \\
       0 &  0 &  0 \\
-      1 &  2 &  1
+      1 &  1 &  1
      \end{bmatrix}
 $$
 
@@ -80,3 +80,35 @@ $$
 - **Applications**:  
   Sobel is commonly used in computer vision tasks, such as object detection, feature extraction, and motion analysis.
 
+
+
+We design the project in two phases:
+- software 
+- hardware
+
+## Software Phase:
+For testing the design, we use the following image:
+
+![img1](Doc/Images/test_img)
+
+
+* We convolve the two kernels **Gx** and **Gy** with the image and then calculate the average of the outputs of both convolved images to report the edges of the image.
+
+To achieve this, we implement the convolution function as follows:
+
+* The dimensions of the grayscale image are (1080, 661).
+* To reduce computational load and increase processing speed, we compromise on image quality and downscale the image dimensions to (128, 128).
+* The resized image appears as follows:
+
+
+
+
+Next, we convolve both kernels with the input image, and the outputs are as follows:
+
+
+
+
+Using the code snippet below, we compute the average of the edges detected by both kernels. We then normalize the pixel values to a range of 0 to 255.
+
+
+The final edge-detected image, referred to bellow, is presented as the software output of the edges detected in the image.
