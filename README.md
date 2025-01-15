@@ -54,14 +54,16 @@ $$
 
 3. **Gradient Magnitude**:  
    The gradients from the horizontal and vertical filters are combined to compute the overall edge strength at each pixel using the formula:
+
 $$
-\text{Gradient Magnitude} = \sqrt{G_x^2 + G_y^2}
+    \text{Gradient Magnitude} = \sqrt{G_x^2 + G_y^2}
 $$
 
 4. **Gradient Direction**:  
    The direction of the edge can be determined using:
+
 $$
-\theta = \tan^{-1}\left(\frac{G_y}{G_x}\right)
+    \theta = \tan^{-1}\left(\frac{G_y}{G_x}\right)
 $$
 
 5. **Thresholding** (optional):  
