@@ -34,6 +34,8 @@ The Sobel edge detection algorithm is a popular and straightforward method used 
      [-1  0  1]
      ```
 
+    $$ \frac{a}{b} $$
+
    - Vertical filter (**Gy**):  
      ```
      [-1 -2 -1]
