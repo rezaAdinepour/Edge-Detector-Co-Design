@@ -152,4 +152,121 @@ The final edge-detected image, referred to bellow, is presented as the software 
 
 
 
+## Hardware Phase:
+In the hardware phase of the project, the same steps are repeated to allow us to compare the outputs of both phases.
 
+For this phase, we used HLS (High-Level Synthesis) to write the hardware implementation. Due to the lengthy code, it is not included in the report, but you can find it in the file sobe`l_edge_detector.cpp` located at:
+
+```bash
+Codes/HW/Sobel_Edge_Detector_PL/src
+```
+
+The testBench file for the module is also available in the same directory. The test file is written such that it:
+
+* Reads the pixel values of the grayscale image from the file `Linux.txt`.
+* Executes the algorithm.
+* Saves the result to the file `edge_linux_hls.txt`.
+
+Finally, this output file is converted back into an image and displayed as follows:
+
+```Python
+img_array = np.loadtxt("Data/Linux.txt", dtype=np.uint8)
+img = Image.fromarray(img_array)
+
+print("image shape: {}" .format(img_array.shape))
+```
+
+![img5](Doc/Images/test_final_conv_hw.png)
+
+
+
+In the next step, we need to establish communication between PL (Programmable Logic) and PS (Processing System).
+
+To achieve this:
+
+1. We export the module written in `HLS` as an `IP Core` and integrate it into Vivado.
+
+2. For enabling this communication, we utilize `AXI_GPIO` blocks.
+    - Two blocks are used for transferring data (image) to the `PL` and receiving the processed data back from the `PL`.
+    - Two additional blocks are used as control signals, which are explained in the relevant section.
+
+The final design structure is presented as follows:
+
+![img6](Doc/Images/int_design.png)
+
+
+Finally, after establishing the connection between `PL` and `PS`, we created a Wrapper file in Vivado. The communication was successfully set up as follows in Vitis.
+
+
+```C
+int main()
+{
+    init_platform();
+
+    XGpio data_input, data_output;
+    XGpio start, valid;
+
+    unsigned char edge[ROWS][COLS];
+
+    // GPIO 1, 2: output,
+    // GPIO 0, 3: input
+    XGpio_Initialize(&data_input, XPAR_AXI_GPIO_0_DEVICE_ID);
+    XGpio_Initialize(&valid, XPAR_AXI_GPIO_3_DEVICE_ID);
+    XGpio_Initialize(&data_output, XPAR_AXI_GPIO_1_DEVICE_ID);
+    XGpio_Initialize(&start, XPAR_AXI_GPIO_2_DEVICE_ID);
+
+    // 0: output, 1: input
+    XGpio_SetDataDirection(&data_input, 1, 1);
+    XGpio_SetDataDirection(&valid, 1, 1);
+    XGpio_SetDataDirection(&data_output, 1, 0);
+    XGpio_SetDataDirection(&start, 1, 0);
+
+    while(1)
+    {
+    	if(XGpio_DiscreteRead(&valid, 1) == 1)
+    	{
+    		for(int i  = 0; i < ROWS; i++);
+			{
+				for(int j = 0; j < COLS; j++)
+				{
+					XGpio_DiscreteWrite(&data_output, 1, x[i][j]);
+				}
+			}
+			XGpio_DiscreteWrite(&start, 1, 1);
+    	}
+    	else
+    	{
+    		if(XGpio_DiscreteRead(&start, 1) == 1)
+    		{
+    			XGpio_DiscreteRead(&data_input, 1);
+    		}
+    		else
+    		{
+
+    		};
+    	}
+
+    }
+
+    // print("Hello World\n\r");
+    // print("Successfully ran Hello World application");
+    // cleanup_platform();
+
+
+
+    return 0;
+}
+```
+
+
+In this code, the grayscale image is hardcoded as a 2D array.
+
+Then, using two control signals, valid and start, the transmission and reception of the image between **PL** (Programmable Logic) and **PS** (Processing System) are controlled.
+
+The process works as follows:
+
+* If the user wants to send an image, they must first set the **valid** input signal to `1`.
+* The image is then read line by line, and the value of each pixel (8 bits) is sent to the PL.
+* After the image is fully transmitted, the **start** signal is set to `1`. This indicates that the algorithm can begin processing.
+
+Once the edges are detected in the **PL**, the processed data is sent back to the **PS** as an 8-bit stream.
